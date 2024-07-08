@@ -9,4 +9,8 @@ public interface IUserService {
     User findById(long id);
 
     List<User> findAllUsers();
+
+    void createUser(User user);
+
+    void deleteUser(Long id);
 }
